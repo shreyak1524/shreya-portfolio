@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreya Kumbhar — AI &amp; Data Science Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Shreya Kumbhar, an AI & Data Science engineering student building thoughtful, practical digital experiences across web, AI and machine learning."
+    />
+    <meta name="theme-color" content="#040814" />
+    <meta property="og:title" content="Shreya Kumbhar — AI & Data Science Portfolio" />
+    <meta
+      property="og:description"
+      content="Turning ideas into meaningful digital experiences. Projects, skills and milestones from Shreya Kumbhar's journey in AI, data science and software development."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("sk-theme");
+          if (stored === "light") {
+            document.documentElement.classList.remove("dark");
+          } else {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (error) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
